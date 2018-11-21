@@ -164,29 +164,38 @@
 
         <div class="card is-fullwidth">
       <header class="card-header">
-        <p class="card-header-title">MACCDC2012 - Generated with Bro from the  <a href="">&nbsp;2012 dataset.</a> </p>
+        <p class="card-header-title"><a href="domaindata/domainmovement.zip" download>Domain Transfer Data</a>&nbsp; Old domain transefer data from several registrars, JSON format. (8MB) </p>
+        <a class="card-header-icon card-toggle">
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </header>
+
+    </div>
+
+        <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="scada/scada_logs.zip" download>Modbus and DNP3 logs</a>&nbsp; ICS logs generated w/Bro from various PCAPs (1MB) </p>
+        <a class="card-header-icon card-toggle">
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </header>
+
+    </div>
+
+        <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title">Static information about Zeus binaries</a> - Static information (JSON) of about ~8k samples from <a href="https://zeustracker.abuse.ch/downloads/zeusbinaries.zip" download>&nbsp;ZeuS Tracker</a> </p>
         <a class="card-header-icon card-toggle">
           <i class="fa fa-angle-down"></i>
         </a>
       </header>
       <div class="card-content is-hidden">
         <div class="content">
-          <lh>A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections. </lh>
+        
           <ul>
                      
-                            <li><a href="maccdc2012/conn.log.gz" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="maccdc2012/dhcp.log.gz" download>dhcp.log.gz</a> (1MB) - <a href="Datasets Description/Network/dhcp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/dns.log.gz" download>dns.log.gz</a> (7MB) - <a href="Datasets Description/Network/dns.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/files.log.gz" download>files.log.gz</a> (49MB) - <a href="Datasets Description/Network/files.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ftp.log.gz" download>ftp.log.gz</a> (1MB) - <a href="Datasets Description/Network/ftp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ftp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/http.log.gz" download>http.log.gz</a> (54MB) - <a href="Datasets Description/Network/http.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/notice.log.gz" download>notice.log.gz</a> (1MB) - <a href="Datasets Description/Network/notice.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">notice  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/signatures.log.gz" download>signatures.log.gz</a> (1MB) - <a href="Datasets Description/Network/signatures.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">signatures  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/smtp.log.gz" download>smtp.log.gz</a> (1MB) - <a href="Datasets Description/Network/smtp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">smtp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssh.log.gz" download>ssh.log.gz</a> (1MB) - <a href="Datasets Description/Network/ssh.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssh  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssl.log.gz" download>ssl.log.gz</a> (2MB) - <a href="Datasets Description/Network/ssl.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssl  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/tunnel.log.gz" download>tunnel.log.gz</a> (1MB) - <a href="Datasets Description/Network/tunnel.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">tunnel  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/weird.log.gz" download>weird.log.gz</a> (2MB) - <a href="Datasets Description/Network/weird.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">weird  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb">jupyter notebook</a></li>
+                            <li><a href="Datasets Description/PE_malware/Zeus.html">Description</a> for <a href="https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk">Zeus Binaries dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/Zeus%20Analysis.ipynb">jupyter notebook</a></li>
+
                          </ul>
         </div>
       </div>
@@ -194,29 +203,18 @@
 
         <div class="card is-fullwidth">
       <header class="card-header">
-        <p class="card-header-title">MACCDC2012 - Generated with Bro from the  <a href="">&nbsp;2012 dataset.</a> </p>
+        <p class="card-header-title"><a href="pe_static/apt1.zip" download>Static information about APT1 binaries</a> - Static information (JSON) of APT1 samples from  <a href="https://virusshare.com/" download>&nbsp;VirusShare</a> </p>
         <a class="card-header-icon card-toggle">
           <i class="fa fa-angle-down"></i>
         </a>
       </header>
       <div class="card-content is-hidden">
         <div class="content">
-          A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.
+
           <ul>
                      
-                            <li><a href="maccdc2012/conn.log.gz" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="maccdc2012/dhcp.log.gz" download>dhcp.log.gz</a> (1MB) - <a href="Datasets Description/Network/dhcp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/dns.log.gz" download>dns.log.gz</a> (7MB) - <a href="Datasets Description/Network/dns.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/files.log.gz" download>files.log.gz</a> (49MB) - <a href="Datasets Description/Network/files.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ftp.log.gz" download>ftp.log.gz</a> (1MB) - <a href="Datasets Description/Network/ftp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ftp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/http.log.gz" download>http.log.gz</a> (54MB) - <a href="Datasets Description/Network/http.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/notice.log.gz" download>notice.log.gz</a> (1MB) - <a href="Datasets Description/Network/notice.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">notice  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/signatures.log.gz" download>signatures.log.gz</a> (1MB) - <a href="Datasets Description/Network/signatures.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">signatures  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/smtp.log.gz" download>smtp.log.gz</a> (1MB) - <a href="Datasets Description/Network/smtp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">smtp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssh.log.gz" download>ssh.log.gz</a> (1MB) - <a href="Datasets Description/Network/ssh.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssh  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssl.log.gz" download>ssl.log.gz</a> (2MB) - <a href="Datasets Description/Network/ssl.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssl  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/tunnel.log.gz" download>tunnel.log.gz</a> (1MB) - <a href="Datasets Description/Network/tunnel.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">tunnel  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/weird.log.gz" download>weird.log.gz</a> (2MB) - <a href="Datasets Description/Network/weird.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">weird  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb">jupyter notebook</a></li>
+                            <li><a href="Datasets Description/PE_malware/VirusShare.html">Description</a> for <a href="https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk">VirusShare Dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/VirusShare%20Analysis-checkpoint.ipynb">jupyter notebook</a></li>
+                           
                          </ul>
         </div>
       </div>
@@ -224,102 +222,662 @@
 
         <div class="card is-fullwidth">
       <header class="card-header">
-        <p class="card-header-title">MACCDC2012 - Generated with Bro from the  <a href="">&nbsp;2012 dataset.</a> </p>
+        <p class="card-header-title"><a href="pe_static/op-cleaver.zip" download>Static information about Op Cleaver binaries</a> - Static information of Op Cleaver related binaries. </p>
         <a class="card-header-icon card-toggle">
           <i class="fa fa-angle-down"></i>
         </a>
       </header>
       <div class="card-content is-hidden">
         <div class="content">
-          A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.
+   
           <ul>
                      
-                            <li><a href="maccdc2012/conn.log.gz" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="maccdc2012/dhcp.log.gz" download>dhcp.log.gz</a> (1MB) - <a href="Datasets Description/Network/dhcp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/dns.log.gz" download>dns.log.gz</a> (7MB) - <a href="Datasets Description/Network/dns.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/files.log.gz" download>files.log.gz</a> (49MB) - <a href="Datasets Description/Network/files.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ftp.log.gz" download>ftp.log.gz</a> (1MB) - <a href="Datasets Description/Network/ftp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ftp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/http.log.gz" download>http.log.gz</a> (54MB) - <a href="Datasets Description/Network/http.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/notice.log.gz" download>notice.log.gz</a> (1MB) - <a href="Datasets Description/Network/notice.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">notice  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/signatures.log.gz" download>signatures.log.gz</a> (1MB) - <a href="Datasets Description/Network/signatures.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">signatures  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/smtp.log.gz" download>smtp.log.gz</a> (1MB) - <a href="Datasets Description/Network/smtp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">smtp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssh.log.gz" download>ssh.log.gz</a> (1MB) - <a href="Datasets Description/Network/ssh.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssh  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssl.log.gz" download>ssl.log.gz</a> (2MB) - <a href="Datasets Description/Network/ssl.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssl  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/tunnel.log.gz" download>tunnel.log.gz</a> (1MB) - <a href="Datasets Description/Network/tunnel.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">tunnel  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/weird.log.gz" download>weird.log.gz</a> (2MB) - <a href="Datasets Description/Network/weird.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">weird  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb">jupyter notebook</a></li>
+                            <li><a href="Datasets Description/PE_malware/OPCleaver.html">Description</a> for <a href="https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk">OPCleaver Dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/OP%20Cleaver%20Analysis.ipynb">jupyter notebook</a></li>
+                            
                          </ul>
         </div>
       </div>
     </div>
 
-        <div class="card is-fullwidth">
+
+
+      
+      <div class="card is-fullwidth">
       <header class="card-header">
-        <p class="card-header-title">MACCDC2012 - Generated with Bro from the  <a href="">&nbsp;2012 dataset.</a> </p>
-        <a class="card-header-icon card-toggle">
-          <i class="fa fa-angle-down"></i>
-        </a>
+        <p class="card-header-title"><a href="self.logs/">Web Logs from Security Repo</a> - these logs are generated by you the community, and me updating this site. </p>
       </header>
-      <div class="card-content is-hidden">
-        <div class="content">
-          A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.
-          <ul>
-                     
-                            <li><a href="maccdc2012/conn.log.gz" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="maccdc2012/dhcp.log.gz" download>dhcp.log.gz</a> (1MB) - <a href="Datasets Description/Network/dhcp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/dns.log.gz" download>dns.log.gz</a> (7MB) - <a href="Datasets Description/Network/dns.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/files.log.gz" download>files.log.gz</a> (49MB) - <a href="Datasets Description/Network/files.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ftp.log.gz" download>ftp.log.gz</a> (1MB) - <a href="Datasets Description/Network/ftp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ftp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/http.log.gz" download>http.log.gz</a> (54MB) - <a href="Datasets Description/Network/http.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/notice.log.gz" download>notice.log.gz</a> (1MB) - <a href="Datasets Description/Network/notice.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">notice  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/signatures.log.gz" download>signatures.log.gz</a> (1MB) - <a href="Datasets Description/Network/signatures.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">signatures  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/smtp.log.gz" download>smtp.log.gz</a> (1MB) - <a href="Datasets Description/Network/smtp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">smtp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssh.log.gz" download>ssh.log.gz</a> (1MB) - <a href="Datasets Description/Network/ssh.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssh  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssl.log.gz" download>ssl.log.gz</a> (2MB) - <a href="Datasets Description/Network/ssl.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssl  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/tunnel.log.gz" download>tunnel.log.gz</a> (1MB) - <a href="Datasets Description/Network/tunnel.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">tunnel  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/weird.log.gz" download>weird.log.gz</a> (2MB) - <a href="Datasets Description/Network/weird.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">weird  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb">jupyter notebook</a></li>
-                         </ul>
-        </div>
       </div>
-    </div>
 
-        <div class="card is-fullwidth">
+
+      <div class="card is-fullwidth">
       <header class="card-header">
-        <p class="card-header-title">MACCDC2012 - Generated with Bro from the  <a href="">&nbsp;2012 dataset.</a> </p>
+        <p class="card-header-title"><a href="squid/access.log.gz" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="auth.log/auth.log.gz" download>auth.log</a> - approx 86k lines, and mostly failed SSH login attempts</p>
+      </header>
+      </div>
+
+
+ <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="honeypot/honeypot.json.zip" download>Honeypot data</a> - Data from various honeypots (Amun and Glastopf) used for various BSides presentations posted below. </p>
         <a class="card-header-icon card-toggle">
           <i class="fa fa-angle-down"></i>
         </a>
       </header>
       <div class="card-content is-hidden">
         <div class="content">
-          A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.
+<lh>Approx 994k entries, JSON format. </lh>
           <ul>
                      
-                            <li><a href="maccdc2012/conn.log.gz" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="maccdc2012/dhcp.log.gz" download>dhcp.log.gz</a> (1MB) - <a href="Datasets Description/Network/dhcp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/dns.log.gz" download>dns.log.gz</a> (7MB) - <a href="Datasets Description/Network/dns.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/files.log.gz" download>files.log.gz</a> (49MB) - <a href="Datasets Description/Network/files.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ftp.log.gz" download>ftp.log.gz</a> (1MB) - <a href="Datasets Description/Network/ftp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ftp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/http.log.gz" download>http.log.gz</a> (54MB) - <a href="Datasets Description/Network/http.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/notice.log.gz" download>notice.log.gz</a> (1MB) - <a href="Datasets Description/Network/notice.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">notice  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/signatures.log.gz" download>signatures.log.gz</a> (1MB) - <a href="Datasets Description/Network/signatures.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">signatures  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/smtp.log.gz" download>smtp.log.gz</a> (1MB) - <a href="Datasets Description/Network/smtp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">smtp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssh.log.gz" download>ssh.log.gz</a> (1MB) - <a href="Datasets Description/Network/ssh.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssh  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssl.log.gz" download>ssl.log.gz</a> (2MB) - <a href="Datasets Description/Network/ssl.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssl  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/tunnel.log.gz" download>tunnel.log.gz</a> (1MB) - <a href="Datasets Description/Network/tunnel.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">tunnel  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/weird.log.gz" download>weird.log.gz</a> (2MB) - <a href="Datasets Description/Network/weird.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">weird  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb">jupyter notebook</a></li>
+                            <li><a href="http://nbviewer.ipython.org/url/secrepo.com/honeypot/BSidesDFW%20-%202014.ipynb">Analysis</a> of the honeypot data for BSidesDFW 2014 - <a href="honeypot/BSidesDFW - 2014.ipynb">IPython Notebook</a></li>
+                           
                          </ul>
         </div>
       </div>
     </div>
 
+ <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/sooshie/Security-Data-Analysis">Security Data Analysis Labs</a> </p>
+        <a class="card-header-icon card-toggle">
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </header>
+      <div class="card-content is-hidden">
+        <div class="content">
+<lh>Approx 994k entries, JSON format. </lh>
+          <ul>
+                     
+                            <li><a href="Security-Data-Analysis/Lab_1/conn.log.zip" download>Connection Log</a> - (522MB compressed, 3GB uncompressed) ~22million flow events</li>
+                    
+                           
+                         </ul>
+        </div>
+      </div>
+    </div>
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://digitalcorpora.org/">Digital Corpora</a> - Disk images, network traffic, and malware, oh my! [License Info: This material is based upon work supported by the National Science Foundation under Grant No. 0919593]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/vz-risk/VCDB">Verizon VERIS Database</a> - Raw VERIS (filtered) data. [License Info: Creative Commons Attribution-ShareAlike 4.0 International Public License]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="ftp://download.iwlab.foi.se/dataset/">The Swedish Defence Research Agency Information Warfare Lab</a> &nbsp;PCAP and various log sources [License Info: Unknown]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.gwern.net/Black-market%20archives">Black-Market Archives</a>&nbsp; A scraped archive of Dark Net Markets [License Info: Unknown]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://predict.org/">Protected Repository for the Defense of Infrastructure Against Cyber Threats</a>&nbsp; Lots of data (restricted use) [License Info: <a href="https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm">License</a>]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"<a href="http://csr.lanl.gov/data/cyber1/">Comprehensive, Multi-Source Cyber-Security Events</a> Auth, DNS, process, and flow data. [License Info: Public Domain]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://csr.lanl.gov/data/">Cyber Security Science</a> &nbsp;Multiple datasets from LANL. [License Info: Public Domain]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://wisnet.seecs.nust.edu.pk/projects/ENS/DataSets.html">Open Source Enterprise Network Security Solution</a> Network traffic and malicious endpoint data. [License Info: Unknown]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/">Australian Defence Force Academy Linux (ADFA-LD) and Windows (ADFA-WD) Datasets</a> HIDS data [License Info: Free for academic research only]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.ccssforum.org/malware-certificates.php">CCSS - Digital Certs Used by Malare</a> - A listing of certificate serial numbers that have been used by malware [License Info: Unknown]</p>
+      </header>
+      </div>
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://bigdata.ise.bgu.ac.il/sherlock/index.html#/">SherLock Dataset</a> - Smartphone dataset with software and hardware sensor information surrounding mobile malware [License Info: 3 year full access, listed on site]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/foospidy/payloads">payloads</a> - A collection of web attack payloads. [License Info: Unknown]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.azsecure-data.org/get-data.html">AZSecure Intelligence and Security Informatics Data Sets</a> - various data sets around mostly web data [License Info: <a href="http://www.azsecure-data.org/get-data.html">Citing</a>]</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="squid/access.log.gz" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</p>
+      </header>
+      </div>
+
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="squid/access.log.gz" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</p>
+      </header>
+      </div>
+
+      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="squid/access.log.gz" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</p>
+      </header>
+      </div>
+
+ <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html" target="_blank">KDD Cup 1999 Data</a> - Network connection data [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.netresec.com/?page=PcapFiles" target="_blank">NETRESEC - Publicly available PCAP files</a> - loads of great PCAP files [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://scans.io/" target="_blank">Internet-Wide Scan Data Repository</a> - Various types of scan data [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://sysnet.ucsd.edu/projects/url/" target="_blank">Detecting Malicious URLs</a> - <a href="http://archive.ics.uci.edu/ml/datasets/URL+Reputation" target="_blank">Mirror</a> - URLS/features/labels [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://hackertarget.com/500k-http-headers/" target="_blank">hackertarget 500K HTTP Headers</a> - HTTP Headers [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://threatglass.com/" target="_blank">Threatglass</a> - PCAPs that contain various exploit kits as well as some legit traffic mixed in. [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.pcapr.net/" target="_blank">pcapr</a> - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...) [License Info: <a href="http://www.pcapr.net/tos">TOS</a>]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/opendns/public-domain-lists" target="_blank">OpenDNS public domain lists</a> - various domain lists [License Info: Public Domain]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html" target="_blank">MIT 1999 DARPA Intrusion Detection Evaluation Data Set</a> - Labeled attack and nont attack data (PCAP and system logs) [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html" target="_blank">MIT 1998 DARPA Intrusion Detection Evaluation Data Set</a> - Network and file system data [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip" download>DDS legit and DGA labeled domains</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz" download>Honeypot Data</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz" download>Honeypot Data with GeoIP info</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://osint.bambenekconsulting.com/feeds/dga-feed.txt">DGA Domains</a> - updated frequently [License Info: <a href="http://osint.bambenekconsulting.com/license.txt">License</a>]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://malwareurls.joxeankoret.com/">Malware URLs</a> - updated daily list of domains and URLs associated with malware [License Info: Disclaimer posted in link]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/rapid7/sonar/wiki/UDP">UDP Scan data</a> - provided by Rapid7 [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.packetmail.net/iprep.txt">Continously updated IP block list</a> - Created by Packetmail (?) [License Info: no for-sale or paywall use]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://commoncrawl.org/">Common Crawl</a> - "open repository of web crawl data that can be accessed and analyzed by anyone" [License Info: Open]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://malware-traffic-analysis.net/">Malware Traffic Analysis</a> - a site with labled exploit kits and phishing emails. [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.simpleweb.org/wiki/Traces">Simple Web Traces</a> - Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs. [License Info: Various]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://tools.netsa.cert.org/silk/referencedata.html">SiLK - LBNL-05</a> Anonymized enterprise packet header traces. [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://dgarchive.caad.fkie.fraunhofer.de/">DGA Archive</a> Multiple DGA data sets generated by the actual algorithm vs. captured network traffic. [License Info: CC BY-NC-SA 3.0]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.unb.ca/research/iscx/dataset/index.html">Information Security Centre of Excellence (ISCX)</a> Data related to Botnets and Android Botnets. [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.isi.csic.es/dataset/">CSIC 2010 HTTP Dataset</a> Labeled (normal, anomalous) HTTP data in CSV format. [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://vacommunity.org/VAST+Challenge+2012%3A+Submission+Instructions+and+Downloads">VAST Challenge 2012</a> IDS logs generated by IEEE [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.uvic.ca/engineering/ece/isot/datasets/index.php">University of Victoria Botnet Dataset</a> Malicious and benign traffic from LBNL and Ericsson (merged publically available data)[License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.caida.org/data/passive/sipscan_dataset.xml">UCSD Network Telescope Dataset on the Sipscan</a> Public and restricted datasets of various malware and other network traffic. [License Info: Available on dataset page]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-NB15-Datasets/">UNSW-NB15</a> This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. (CSV data) [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://mcfp.felk.cvut.cz/publicDatasets/">Stratosphere IPS Public Datasets</a> PCAPs, Samples, etc... [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/hslatman/awesome-industrial-control-system-security">Awesome Industrial Control System Security</a> - Has links to SCADA PCAPs and other SCADA related resources [License Info: Apache License 2.0 (site), Data: various]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://s3-us-west-1.amazonaws.com/umbrella-static/index.html">Cisco Umbrella Popularity List</a> - Top 1 million most daily popular domains [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://s3.amazonaws.com/alexa-static/top-1m.csv.zip">Alexa Top 1 Million</a> - The static 1 million most popular sites by Alexa [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs">Using machine learning to detect malicious URLs</a> - Cade and labeled URL data. [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://majestic.com/reports/majestic-million">Majestic Million Domains</a> - Top million domains with the most referring subnets.  [License Info: Attribution 3.0 Unported (CC BY 3.0)]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://research.aalto.fi/en/datasets/iot-devices-captures(285a9b06-de31-4d8b-88e9-5bdba46cc161).html">IoT device captures</a> IoT Device PCAP by Aalto University Research [License Info: Listed on site]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://bluesmote.com/" target="_blank">Project Bluesmote</a> - Syrian Bluecoat Proxy Logs [License Info: Public Domain]
+                         <!--<ul>
+                             <lh>Local Mirror</lh>
+                             <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title">todo</p>
+      </header>
+      </div>
+                         </ul>-->
+                     </p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/jasklabs/blackhat2017">Data for a Black Hat 2017 Handout</a> - Various types of data (network, host, etc...) for different use cases (e.g. Remote Exploitation, Spear Phishing, Ransomware, WebShell) [License Info: Apache 2]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/jzadeh/aktaion">Aktion Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/jzadeh/aktaion2">Atkion V2 Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/vs-uulm/2017-SUEE-data-set">2017-SUEE-data-set</a> - PCAP files that show various HTTP attack (slowloris, slowhttptest, slowloris-ng) [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://archive.ics.uci.edu/ml/datasets/Website+Phishing">UCI ML Repository - Website Phishing Data Set</a> A collection of Phishing Websites as well as legitimate ones. [License Info: Listed on site]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://plg.uwaterloo.ca/~gvcormac/treccorpus07/">2007 TREC Public SPAM Corpus</a> - SPAM Corpus [License Info: Listed on site]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall">ML Driven Web Application Firewall</a> - Machine learning driven web application firewall to detect malicious queries with high accuracy (URL data) [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.westpoint.edu/crc/SitePages/DataSets.aspx">West Point NSA Data Sets</a> - Snort IDS, DNS Service, and Web Server logs. [License Info: Unknown]</p>
+      </header>
+      </div>
+
+<div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://mcfp.weebly.com/">The Malware Capture Facility Project</a> - Published long-runs of malware including network information. Make sure to check out the <a href="http://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html">Labeled CTU-13 Dataset</a> [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://panda.gtisc.gatech.edu/malrec/">PANDA Malware Analysis</a> - Execution traces and PCAPs from <a href="http://moyix.blogspot.com/2014/12/reproducible-malware-analyses-for-all.html?m=1">Moyix's PANDA setup</a> [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://laredo-13.mit.edu/~brendan/opcleaver/">Op Cleaver PANDA Analysis</a> - rrlogs, PCAPs, movies and reports from Op Cleaver malware [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.kaggle.com/c/malware-classification">kaggle Malware Classification</a> - Unlabled malware, but there are solutions to label it! [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://rebsnippets.blogspot.com/2015/08/plugx-chronicles.html">PlugX Chronicles</a> Various PlugX samples and links to information about PlugX [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view">Labeled VirusShare data by @_delta_zero</a> - VirusShare data that has been consitently labeled (7zip download) [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www2.cs.arizona.edu/projects/lynx-project/Samples/">lynx Project Samples</a> - Benign samples that behave like malware (<a href="https://www2.cs.arizona.edu/projects/lynx-project/">lynx Project</a>)  [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://virussign.com/index.html">VirusSign</a> - Free and Paid account access to several million malware samples [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.offensivecomputing.net/">Open Malware</a> - Searchable malware repo with free downloads of samples [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://malwaredb.malekal.com/">Malware DB by Malekal</a> - A list of malicious files, complete with sample link and some AV results [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.sec.cs.tu-bs.de/~danarp/drebin/">Drebin Dataset</a> - Android malware, must submit proof of who you are for access. [License Info: Listed on site]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/endgameinc/ember">EMBER Dataset</a> - Features and labels from 1.1 million benign/malicious PE files with trained model. [License Info: AGPL-3.0]</p>
+      </header>
+      </div>
+
+<div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/marcoramilli/MalwareTrainingSets">MalwareTrainingSets</a> - JSON describing several intrusion sets/threat actors [License Info: Listed on GitHub]</p>
+      </header>
+      </div>
+
+
+
+
+
+ <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html" target="_blank">DDS Dataset Collection</a> - Honeypot related data [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/">Website Classification</a> [License Info: Public Domain, info on site]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set">ECML/PKDD 2010 Discovery Challenge Data Set</a> - Web classification data [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.rrshare.org/">PANDA rrlogs</a> - share and download rrlogs from the <a href="https://github.com/moyix/panda">PANDA dynamic analysis platform</a> [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/andrew-morris/threat_research_private">Threat Research Private</a> - Encrypted data collected from SSH honeypots [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/gh0std4ncer/threat_research">Threat Research</a> - Data collected from SSH honeypots (fork of the original Andrew Morris collection)[License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/santiago-bassett/Alienvault-Demo_scripts">Sample logs and scripts for Alienvault</a> - Various log types (SSH, Cisco, Sonicwall, etc..) [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://bot.ngx.cc/logs/%23nginx/">#nginx IRC channel logs</a> - Bot logs [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://log-sharing.dreamhosters.com/">Public Security Log Sharing Site</a> - misc. system logs, NIDS logs, and web proxy logs [License Info: Public, site source (details at top of page)]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.cert.org/insider-threat/tools/index.cfm">CERT Insider Threat Tools</a> - "These datasets provide both synthetic background data and data from synthetic malicious actors" [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/">ADFA IDS Datasets</a> - The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS. [License Info: Listed on site]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/konstantinberlin/malware-windows-audit-log-detection">Workshop on AI and Security</a> - Anonomized Windows Audit Logs. [License Info: Apache 2.0]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/JonathanPhillips/Threat_Research">Threat Research</a> - Honeypot data [License Info: Unknown]</p>
+      </header>
+      </div>
+
+
+  <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://contagiodump.blogspot.com/" target="_blank">contagio malware dump</a> - A resource for files/data regarding targeted attacks [License Info: Unknown]</p>
+      </header>
+      </div>
+                      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://virusshare.com/" target="_blank">VirusShare.com - Because Sharing is Caring</a> [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures [License Info: Unknown]</p>
+      </header>
+      </div>
+                      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://vxheaven.org/faq.php#whole">Vx Heaven</a> - sorted by AV set of virus samples (available via BitTorrent) [License Info: Unknown]</p>
+      </header>
+      </div>
+                      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://techhelplist.com/spam-list">TechHelpList SPAM List</a> - Samples of SPAM messages and associated threat that was delivered in addition to other rich information [License Info: Unknown]</p>
+      </header>
+      </div>
+                      <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://www.malshare.com/index.php">MalShare</a> - A community driven public malware repository.  [License Info: <a href = "http://www.malshare.com/tos.php">TOS</a>]</p>
+      </header>
+      </div>
+
+<div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937" target="_blank">Yahoo! Password Frequency Corpus</a> - This dataset includes sanitized password frequency lists collected from Yahoo in May 2011.  [License Info: CC-0]</p>
+      </header>
+      </div>
+
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://vxvault.net/ViriList.php">VXvault</a> - List of URLs and MD5s that are malicious [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://otx.alienvault.com/browse">AlienVault OTX</a> - Build your own threat feed from community contributors, complete with API [License Info: <a href="https://www.alienvault.com/terms/may2014">Legal Info</a>]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://tracker.h3x.eu/families">Tracker</a> - Malware hashes and their associated campaigns [License Info: <a href="http://tracker.h3x.eu/about/400">About</a>]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.malwaredomainlist.com/mdl.php">Malware Domain List</a> - Labeled malicious domains and IPs [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://support.clean-mx.de/clean-mx/phishing.php">Clean MX Phishing DB</a> - URLs and IPs associated with phishing emails, also targets are listed where determined [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://support.clean-mx.com/clean-mx/viruses.php">Clean MX Virus DB</a> - Labeled URLs and IPs associated with various types of malware [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <!--<div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://threatcenter.crdf.fr/">CRDF Threat Center</a> - Labeled MD5s and reputation data [License Info: Open Usage]</p>
+      </header>
+      </div>-->
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://techhelplist.com/maltlqr/">TechHelpList MalTLQR Upatre and Dyreza Tracker</a> - IPs and hashes for Upatre and Dyreza families [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://cybercrime-tracker.net/">CyberCrime Tracker</a> - Labled URLs and IPs for various malware families [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="http://cybercrime-tracker.net/zbox.php">CyberCrime ZbotScan</a> - List of hashes associated with various Zbot variants [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://www.abuse.ch/">abuse.ch trackers</a> - Trackers for ransomeware, ZeuS, SSL Blacklist, SpyEye, Palevo, and Feodo [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://github.com/pan-unit42/iocs">Unit 42 Indicators</a> - Indicators from the Unit 42 reports [License Info: Unknown]</p>
+      </header>
+      </div>
+                     <div class="card is-fullwidth">
+      <header class="card-header">
+        <p class="card-header-title"><a href="https://threatfeeds.io/">Threat Feeds</a> - Threat feed aggregator [License Info: Various]</p>
+      </header>
+      </div>
+
+                   
   </div>
-
-
-
-
-
-
-
 
 </section>
   <footer class="footer">
