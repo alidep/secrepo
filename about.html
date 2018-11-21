@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+<section class="section">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="">
+      <img src="logoo-small.png">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        About
+      </a>
+       <a class="navbar-item">
+        Contact
+      </a>
+       <a class="navbar-item">
+        Data
+      </a>
+       <a class="navbar-item">
+        Misc
+      </a>
+      </div>
+    </div>
+  </div>
+</nav>
+</section>
+
+<div class="container about">
+
+<h3>Samples of Security Related Data</h3>
+
+<h5>
+Finding samples of various types of Security related can be a giant pain. This is my attempt to keep a somewhat curated list of Security related data I've found, created, or was pointed to. If you perform any kind of analysis with any of this data please let me know and I'd be happy to link it from here or host it here. Hopefully by looking at others research and analysis it will inspire people to add-on, improve, and create new ideas.</h5>
+<br>
+<h4>Q:</h4> <p>How do you give without having to do anything?</p>
+<h4>A:</h4>  <p>Simply visit this site.</br></br>
+I've decided that I'm going to start posting the logs from this site to the site. It's a great way to open source some data, and after a few discussions I don't think any privacy will be violated. If I receive a lot of backlash about this decision perhaps I'll reverse it, but until further notice web logs for this domain will be available here.</p>
+<br>
+<div class="extras">
+<p>All data generated and hosted by Security Repo is done so under the following license (exceptions noted where applicable).</p>
+</br>
+<p><a href="http://purl.org/dc/dcmitype/Dataset">Security Repo</a> by <a href="http://secrepo.com">Mike Sconzo</a> is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p></br>
+<img src="https://i.creativecommons.org/l/by/4.0/88x31.png"></div>
+</div>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      If you dig the site, have data, need data, or whatever, find me on <a href="">Twitter</a> or <a href="">GitHub.</a>
+    </p>
+   <p>
+   <i class="fab fa-twitter-square fa-2x"></i>&nbsp;&nbsp;<i class="fab fa-github fa-2x"></i></p>
+      <p class="credit">Security Repo - Last updated: Sun Sep  2 15:05:03 PDT 2018</p>
+  </div>
+</footer>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+  let cardToggles = document.getElementsByClassName('card-toggle');
+  for (let i = 0; i < cardToggles.length; i++) {
+    cardToggles[i].addEventListener('click', e => {
+      e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+    });
+  }
+});
+</script>
+  </body>
+</html>
